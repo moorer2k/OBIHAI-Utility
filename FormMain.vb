@@ -93,10 +93,6 @@ Public Class FormMain
     Private Sub MetroTile1_Click(sender As Object, e As EventArgs) Handles MetroTile1.Click
         End
     End Sub
-    Private Sub ButtonAbout_Click(sender As Object, e As EventArgs) Handles ButtonAbout.Click
-        Obi.GetCallHistory()
-    End Sub
-
     Private Sub ButtonExport_Click(sender As Object, e As EventArgs) Handles ButtonExport.Click
         Dim history As String = ""
         For Each item As ListViewItem In ObjectListView1.Items
@@ -104,6 +100,9 @@ Public Class FormMain
         Next
         Clipboard.SetText(history)
         MsgBox("Copied to clipboard.")
+    End Sub
+    Private Sub ButtonRefresh_Click(sender As Object, e As EventArgs) Handles ButtonRefresh.Click
+        Obi.GetCallHistory()
     End Sub
 End Class
 

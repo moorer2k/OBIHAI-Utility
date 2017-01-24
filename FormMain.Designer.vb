@@ -87,6 +87,7 @@ Partial Class FormMain
         Me.MetroTabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed
         Me.MetroTabControl1.Location = New System.Drawing.Point(0, 0)
         Me.MetroTabControl1.Name = "MetroTabControl1"
+        Me.MetroTabControl1.Padding = New System.Drawing.Point(6, 8)
         Me.MetroTabControl1.SelectedIndex = 0
         Me.MetroTabControl1.Size = New System.Drawing.Size(434, 301)
         Me.MetroTabControl1.TabIndex = 3
@@ -95,6 +96,7 @@ Partial Class FormMain
         'MetroTabPage1
         '
         Me.MetroTabPage1.Controls.Add(Me.MetroTabControl2)
+        Me.MetroTabPage1.Enabled = True
         Me.MetroTabPage1.HorizontalScrollbarBarColor = True
         Me.MetroTabPage1.HorizontalScrollbarSize = 0
         Me.MetroTabPage1.Location = New System.Drawing.Point(4, 4)
@@ -104,7 +106,7 @@ Partial Class FormMain
         Me.MetroTabPage1.Text = "Call History"
         Me.MetroTabPage1.VerticalScrollbarBarColor = True
         Me.MetroTabPage1.VerticalScrollbarSize = 0
-        Me.MetroTabPage1.Visible = False
+        Me.MetroTabPage1.Visible = True
         '
         'MetroTabControl2
         '
@@ -112,6 +114,7 @@ Partial Class FormMain
         Me.MetroTabControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MetroTabControl2.Location = New System.Drawing.Point(0, 0)
         Me.MetroTabControl2.Name = "MetroTabControl2"
+        Me.MetroTabControl2.Padding = New System.Drawing.Point(6, 8)
         Me.MetroTabControl2.SelectedIndex = 0
         Me.MetroTabControl2.Size = New System.Drawing.Size(426, 262)
         Me.MetroTabControl2.TabIndex = 3
@@ -120,6 +123,7 @@ Partial Class FormMain
         '
         Me.MetroTabPage4.Controls.Add(Me.ObjectListView1)
         Me.MetroTabPage4.Controls.Add(Me.MetroPanel3)
+        Me.MetroTabPage4.Enabled = True
         Me.MetroTabPage4.HorizontalScrollbarBarColor = True
         Me.MetroTabPage4.Location = New System.Drawing.Point(4, 35)
         Me.MetroTabPage4.Name = "MetroTabPage4"
@@ -127,6 +131,7 @@ Partial Class FormMain
         Me.MetroTabPage4.TabIndex = 0
         Me.MetroTabPage4.Text = "Archived Calls"
         Me.MetroTabPage4.VerticalScrollbarBarColor = True
+        Me.MetroTabPage4.Visible = True
         '
         'ObjectListView1
         '
@@ -219,6 +224,7 @@ Partial Class FormMain
         '
         Me.MetroTabPage3.Controls.Add(Me.LabelStatus)
         Me.MetroTabPage3.Controls.Add(Me.MetroProgressSpinner1)
+        Me.MetroTabPage3.Enabled = True
         Me.MetroTabPage3.HorizontalScrollbarBarColor = True
         Me.MetroTabPage3.HorizontalScrollbarSize = 0
         Me.MetroTabPage3.Location = New System.Drawing.Point(4, 4)
@@ -373,13 +379,13 @@ Partial Class FormMain
     Private WithEvents LabelStatus As MetroFramework.Controls.MetroLabel
     Private WithEvents MetroTile1 As MetroFramework.Controls.MetroTile
     Friend WithEvents MetroToolTip1 As MetroFramework.Components.MetroToolTip
-    Public WithEvents ButtonStart As MetroFramework.Controls.MetroTile
-    Friend WithEvents MetroTabControl2 As MetroFramework.Controls.MetroTabControl
-    Friend WithEvents MetroTabPage4 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroPanel3 As MetroFramework.Controls.MetroPanel
-    Friend WithEvents ButtonRemoveAll As MetroFramework.Controls.MetroButton
-    Friend WithEvents ButtonRefresh As MetroFramework.Controls.MetroButton
-    Friend WithEvents ButtonExport As MetroFramework.Controls.MetroButton
     Friend WithEvents OlvColumn3 As BrightIdeasSoftware.OLVColumn
     Private WithEvents ObjectListView1 As BrightIdeasSoftware.ObjectListView
+    Private WithEvents MetroTabControl2 As MetroFramework.Controls.MetroTabControl
+    Private WithEvents MetroTabPage4 As MetroFramework.Controls.MetroTabPage
+    Private WithEvents ButtonRemoveAll As MetroFramework.Controls.MetroButton
+    Private WithEvents ButtonRefresh As MetroFramework.Controls.MetroButton
+    Private WithEvents ButtonExport As MetroFramework.Controls.MetroButton
+    Public WithEvents ButtonStart As MetroFramework.Controls.MetroTile
 End Class
