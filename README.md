@@ -7,7 +7,7 @@ Here are some screenshots for a quick understanding of what this tool will provi
 ![untitled](https://cloud.githubusercontent.com/assets/2856413/22234768/92ac236a-e1af-11e6-90ca-c6fffe3f8568.png)
 ![untitled1](https://cloud.githubusercontent.com/assets/2856413/22234771/92ad418c-e1af-11e6-8833-90db7afb2535.png)
 # In action
-![untitled3](https://cloud.githubusercontent.com/assets/2856413/22234769/92ac3c2e-e1af-11e6-9968-b084768ca911.png)
+![untitled3](https://cloud.githubusercontent.com/assets/2856413/22235181/c8ea5bce-e1b2-11e6-915d-4529f1b702e3.png)
 ![untitled4](https://cloud.githubusercontent.com/assets/2856413/22234770/92acc4aa-e1af-11e6-834e-79678ab7a54d.png)
 
 # Downloads
