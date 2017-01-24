@@ -9,3 +9,7 @@ Here are some screenshots for a quick understanding of what this tool will provi
 # In action
 ![untitled3](https://cloud.githubusercontent.com/assets/2856413/22234769/92ac3c2e-e1af-11e6-9968-b084768ca911.png)
 ![untitled4](https://cloud.githubusercontent.com/assets/2856413/22234770/92acc4aa-e1af-11e6-834e-79678ab7a54d.png)
+
+# Downloads
+
+You can download a copy of the release located under Release.7z. or [click here to save](https://github.com/moorer2k/OBIHAI-Utility/raw/master/Release.7z).
