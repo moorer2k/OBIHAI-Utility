@@ -13,3 +13,6 @@ Here are some screenshots for a quick understanding of what this tool will provi
 # Downloads
 
 You can download a copy of the release located under Release.7z. or [click here to save](https://github.com/moorer2k/OBIHAI-Utility/raw/master/Release.7z).
+
+## Star the project to show your support!
+[![Stargazers repo roster for @moorer2k/OBIHAI-Utility](https://reporoster.com/stars/moorer2k/OBIHAI-Utility)](https://github.com/moorer2k/OBIHAI-Utility/stargazers)
